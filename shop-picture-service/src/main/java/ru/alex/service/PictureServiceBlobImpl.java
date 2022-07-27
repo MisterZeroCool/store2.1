@@ -3,8 +3,10 @@ package ru.alex.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import ru.alex.persist.model.Picture;
 import ru.alex.persist.model.PictureData;
+import ru.alex.persist.model.Product;
 import ru.alex.persist.repo.PictureRepository;
 
 import java.util.Optional;
@@ -39,5 +41,17 @@ public class PictureServiceBlobImpl implements PictureService {
     @Override
     public PictureData createPictureData(byte[] picture) {
         return new PictureData(picture);
+    }
+
+    @Override
+    public Optional<Product> getProductByPictureId(long id) {
+        return repository.findById(id)
+                .map(Picture::getProduct);
+    }
+
+    @Override
+    @Transactional
+    public void removePicture(long id) {
+        repository.deleteById(id);
     }
 }
