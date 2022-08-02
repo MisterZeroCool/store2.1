@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>geek-study-eshop</artifactId>
-        <groupId>ru.geekbrains</groupId>
+        <artifactId>store3</artifactId>
+        <groupId>ru.alex</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
@@ -64,7 +64,7 @@
                 <configuration>
                     <propertyFile>target/classes/liquibase-maven-plugin.properties</propertyFile>
                     <systemProperties>
-                        <user.name>aleks_ush</user.name>
+                        <user.name>alex</user.name>
                     </systemProperties>
                 </configuration>
                 <dependencies>
@@ -76,7 +76,7 @@
                     <dependency>
                         <groupId>org.springframework.boot</groupId>
                         <artifactId>spring-boot-starter-data-jpa</artifactId>
-                        <version>2.4.0</version>
+                        <version>2.3.4.RELEASE</version>
                     </dependency>
                 </dependencies>
             </plugin>

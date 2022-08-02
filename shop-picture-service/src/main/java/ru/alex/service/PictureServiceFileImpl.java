@@ -63,7 +63,7 @@ public class PictureServiceFileImpl implements PictureService {
     @Override
     public PictureData createPictureData(byte[] picture) {
         String fileName = UUID.randomUUID().toString();
-        try (OutputStream os = Files.newOutputStream(Path.of(storagePath, fileName))) {
+        try (OutputStream os = Files. newOutputStream(Path.of(storagePath, fileName))) {
             os.write(picture);
         } catch (IOException ex) {
             logger.error("Can't create picture file", ex);
