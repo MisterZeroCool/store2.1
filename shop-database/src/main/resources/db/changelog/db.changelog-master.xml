@@ -9,37 +9,37 @@
         <runningAs username="root"/>
     </preConditions>
 
-    <changeSet id="0" author="aleks_ush">
+    <changeSet id="0" author="alex">
         <tagDatabase tag="db_init"/>
     </changeSet>
 
     <include file="v-1.0/db.changelog-20201223-174241814.xml" relativeToChangelogFile="true"/>
 
-    <changeSet id="10" author="aleks_ush">
+    <changeSet id="10" author="alex">
         <tagDatabase tag="v-1.0"/>
     </changeSet>
 
     <include file="v-2.0/db.changelog-20201223-182548729.xml" relativeToChangelogFile="true"/>
 
-    <changeSet id="20" author="aleks_ush">
+    <changeSet id="20" author="alex">
         <tagDatabase tag="v-2.0"/>
     </changeSet>
 
     <include file="v-3.0/db.changelog-20201228-160232142.xml" relativeToChangelogFile="true"/>
 
-    <changeSet id="30" author="aleks_ush">
+    <changeSet id="30" author="alex">
         <tagDatabase tag="v-3.0"/>
     </changeSet>
 
     <include file="v-4.0/db.changelog-20201228-175007283.xml" relativeToChangelogFile="true"/>
 
-    <changeSet id="40" author="aleks_ush">
+    <changeSet id="40" author="alex">
         <tagDatabase tag="v-4.0"/>
     </changeSet>
 
     <include file="v-5.0/db.changelog-20201230-170656028.xml" relativeToChangelogFile="true"/>
 
-    <changeSet id="50" author="aleks_ush">
+    <changeSet id="50" author="alex">
         <tagDatabase tag="v-5.0"/>
     </changeSet>
 

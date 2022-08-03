@@ -1,0 +1,4 @@
+GET http://localhost:8888/config/application.properties
+###
+GET http://localhost:8888/config/shop-picture-service-app-default.properties
+
