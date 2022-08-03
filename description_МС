@@ -184,4 +184,5 @@ Spring Config Server умеет разделять информацию в за�
              <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
          </dependency>
 
+Запускаем сервер и приложение которое получит от него информацию
 
