@@ -19,7 +19,7 @@ Lower Header Section
     <div id="gototop"></div>
     <header th:replace="fragments/header :: lower_header" id="header">
     </header>
-
+    
     <!--
     Navigation Bar Section
     -->
@@ -31,7 +31,7 @@ Lower Header Section
     <div class="row">
         <div th:replace="fragments/sidebar ::sidebar" id="sidebar" class="col-md-3">
         </div>
-
+        
         <div class="col-md-9">
             <!--
             New Products
@@ -45,7 +45,7 @@ Lower Header Section
                                 <a class="zoomTool" th:href="@{/product_details/{id}(id=${prod.id})}" title="add to cart"><span
                                         class="icon-search"></span> QUICK VIEW</a>
                                 <a th:href="@{/product_details/{id}(id=${prod.id})}">
-                                    <img th:src="@{/picture/{id}(id=${prod.mainPictureId})}" alt="">
+                                    <img th:src="@{{pictureServiceUrl}/picture/{id}(id=${prod.mainPictureId}, pictureServiceUrl=${pictureServiceUrl})}" alt="">
                                 </a>
                                 <div class="caption cntr">
                                     <p th:text="${prod.name}">Manicure & Pedicure</p>
@@ -71,17 +71,17 @@ Lower Header Section
                         </li>
                     </ul>
                 </div>
-
+            
             </div>
         </div>
     </div>
-
+    
     <!--
     Clients
     -->
     <section th:replace="fragments/footer :: our_client" class="our_client">
     </section>
-
+    
     <!--
     Footer
     -->
