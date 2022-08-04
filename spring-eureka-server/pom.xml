@@ -10,7 +10,6 @@
     </parent>
 
     <artifactId>spring-eureka-server</artifactId>
-
     <name>spring-eureka-server</name>
     <description>spring-eureka-server</description>
     <properties>
