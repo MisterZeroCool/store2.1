@@ -1,0 +1,18 @@
+Для того что бы начать изучение WebSocket попробуем реализовать в нашем
+магазине Чат, что бы пользоватьль мог задовать интересующие его вопросы.
+
+Добавляем зависимости в pom.xml для работы с WebSocket
+         <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>sockjs-client</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+WebSocket может передовать только байты, и для того что бы передовать какие то осмысленные данные
+добавим зависимость
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>stomp-websocket</artifactId>
+            <version>2.3.3</version>
+        </dependency>
+
+Создаем класс WebSocketConfig который будет находиться в модуле shop-ui.
