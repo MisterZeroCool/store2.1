@@ -36,4 +36,9 @@ spring-gateway - Spring Cloud Gateway принимает входящие вне
                  свои правила маршрутизации и, в случае нахождения подходящего для
                  пришедшего запроса правила, перенаправляет запрос к одному из серви-
                  сов.
-![image](https://user-images.githubusercontent.com/106084565/184637208-e2ac4de8-df32-4d21-a28f-44d295e56de8.png)
+![вход в админку](https://user-images.githubusercontent.com/106084565/184637208-e2ac4de8-df32-4d21-a28f-44d295e56de8.png)
+![Добавлние пользователя](https://user-images.githubusercontent.com/106084565/184638756-ba39c922-2930-4ce8-84ac-2703c498ec6d.png)
+
+![Добавление продуктов](https://user-images.githubusercontent.com/106084565/184638713-1488b62f-d98d-4c7c-96f8-237a3b6a0b4a.png)
+
+
