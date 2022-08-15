@@ -45,7 +45,7 @@ spring-gateway - Spring Cloud Gateway принимает входящие вне
 
 ![Добавлние пользователя](https://user-images.githubusercontent.com/106084565/184638756-ba39c922-2930-4ce8-84ac-2703c498ec6d.png)
 
-Список продуктов
+Список продуктов с возможностью их редактирования
 
 ![Список продуктов](https://user-images.githubusercontent.com/106084565/184638713-1488b62f-d98d-4c7c-96f8-237a3b6a0b4a.png)
 
