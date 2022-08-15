@@ -53,6 +53,16 @@ spring-gateway - Spring Cloud Gateway принимает входящие вне
 
 ![Добавление продукта](https://user-images.githubusercontent.com/106084565/184640782-c73d4671-c49b-44a2-9a7d-56ae614a4d18.png)
 
+Страница магазина ShopCart
+
+![ShopCart](https://user-images.githubusercontent.com/106084565/184643197-2734c1be-a8af-4347-bc1d-6a92a25c57aa.png)
+
+Добавление продуктов в карзину
+
+![Добавление продуктов в карзину](https://user-images.githubusercontent.com/106084565/184643292-60ae0c30-98c9-4df5-936b-b79da3d3b555.png)
+
+
+
 
 
 
